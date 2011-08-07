@@ -9,14 +9,14 @@ import android.widget.TextView;
 
 public class GridAdapter extends BaseAdapter {
 	private Context context;
-	private String[] texts = {"aaa", "bbb", "ccc", "ddd", "eee", "fff", "eee", "hhh", "iii"};
+	private String[] texts = {"Whiskey","Brandy", "Rum", "Vodka" ,"Gin" , "Beer", "Wine"};
 
 	public GridAdapter(Context context) {
 	    this.context = context;
 	}
 
 	public int getCount() {
-	    return 9;
+	    return 7;
 	}
 
 	public Object getItem(int position) {
