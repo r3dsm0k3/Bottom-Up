@@ -12,8 +12,9 @@ public class BoozedActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.title);
-        GridView gridview = (GridView) findViewById(R.id.gridview);
-        gridview.setAdapter(new GridAdapter(this));
+        GridView gridview = (GridView) findViewById(R.id.mygridview);
+        GridAdapter grid_obj = new GridAdapter(this);
+        gridview.setAdapter(grid_obj);
 
     }
 }
