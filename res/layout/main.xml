@@ -4,20 +4,17 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
 	android:background="@drawable/backrepeat"
-    android:gravity="center"
-    android:layout_gravity="center"
     >
     <GridView xmlns:android="http://schemas.android.com/apk/res/android" 
-    android:id="@+id/mygridview"
+    android:id="@+id/gridview"
     android:layout_width="fill_parent" 
     android:layout_height="fill_parent"
-    android:numColumns="2"
+    android:numColumns="auto_fit"
     android:verticalSpacing="10dp"
     android:horizontalSpacing="10dp"
     android:columnWidth="90dp"
     android:stretchMode="columnWidth"
     android:gravity="center"
-    
 />
 </LinearLayout>
  
